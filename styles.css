@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -12,7 +16,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea 0%, 001F54 100%);
     color: white;
     text-align: center;
     padding: 3rem 1rem;
@@ -41,7 +45,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #667eea;
+    background-color: 0A1128;
 }
 
 section {
@@ -92,6 +96,7 @@ h2 {
 
 #habilidades li:hover {
     transform: translateY(-5px);
+    background-color: 001F54;
 }
 
 footer {
