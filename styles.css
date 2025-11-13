@@ -60,7 +60,7 @@ section {
 h2 {
     color: #001F54;
     margin-bottom: 1rem;
-    border-bottom: 2px solid #667eea;
+    border-bottom: 2px solid #0A1128;
     padding-bottom: 0.5rem;
 }
 
@@ -68,7 +68,7 @@ h2 {
     background-color: #f9f9f9;
     padding: 1.5rem;
     margin: 1rem 0;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #0A1128;
     border-radius: 5px;
 }
 
@@ -116,4 +116,8 @@ footer {
         margin: 1rem;
         padding: 1.5rem;
     }
+}
+
+ul ul{
+    margin-left: 1.5rem;
 }
